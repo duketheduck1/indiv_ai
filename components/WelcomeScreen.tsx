@@ -39,8 +39,8 @@ export const WelcomeScreen = () => {
           transition={{ duration: 0.6 }}
           className="relative"
         >
-          <div className="absolute inset-0 bg-gradient-to-r from-teal-500/20 to-amber-500/20 blur-3xl rounded-full" />
-          <div className="relative bg-white/70 backdrop-blur-sm rounded-3xl p-12 border border-white/50 shadow-xl">
+          <div className="absolute inset-0 bg-gradient-to-r from-teal-200 to-amber-100 blur-3xl rounded-full" />
+          <div className="relative bg-white backdrop-blur-sm rounded-3xl p-12 border border-white shadow-xl">
             <h1 className="text-5xl font-serif font-bold text-slate-900 mb-6">
               Your Personal
               <span className="block bg-gradient-to-r from-teal-600 to-amber-600 bg-clip-text text-transparent">
