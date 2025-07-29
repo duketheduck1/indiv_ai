@@ -17,7 +17,7 @@ export const CulturalDashboard = () => {
   useEffect(() => {
     const fetchProfile = async (userId: string) => {
       const profileData = await CulturalProfileOne(userId) as CulturalProfile;
-      if (profileData) {
+      if (profileData?.id) {
         setProfile(profileData);
         setLoading(false);
       }
