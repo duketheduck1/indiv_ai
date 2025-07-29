@@ -9,7 +9,7 @@ const ProviderClerk = ({ children }: { children: ReactNode }) => (
     appearance={{
       layout: {
         socialButtonsVariant: "iconButton",
-        logoImageUrl: "/icons/logo.svg",
+        logoImageUrl: "/icons/logo1.svg",
       },
       variables: {
         colorBackground: "#15171c",
