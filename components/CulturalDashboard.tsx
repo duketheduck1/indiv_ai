@@ -22,10 +22,7 @@ export const CulturalDashboard = () => {
         setLoading(false);
       }
     };
-    if (loading){
-      fetchProfile(userId);
-      setLoading(false);
-    }
+    fetchProfile(userId);
   }, [loading, userId])
     
 
@@ -55,7 +52,7 @@ export const CulturalDashboard = () => {
       >
         <h1 className="text-3xl font-serif font-bold text-slate-900 mb-2">
           Your Cultural Profile
-          {loading && "Demo Mode"}
+          {loading && " Demo Mode"}
         </h1>
         <p className="text-lg text-slate-600">
           Deep insights into your cultural DNA and taste connections

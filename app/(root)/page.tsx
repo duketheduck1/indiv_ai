@@ -1,9 +1,5 @@
 "use client";
-import { sidebar} from "@/components/contents";
 import { WelcomeScreen } from "@/components/WelcomeScreen";
-import { getQueueContent } from "@/database/content";
-import { useEffect, useState } from "react";
-// import Image from "next/image";
 
 const Home = () => {
   
