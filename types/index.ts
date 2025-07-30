@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 export interface UserPreferences {
   music: string[];
   film: string[];
@@ -19,7 +20,6 @@ export interface CulturalProfile {
 }
 
 export interface TasteConnection {
-  map(arg0: (connection: { domain: string; strength: number; }) => { name: string; strength: number; }): unknown;
   from: string;
   to: string;
   strength: number;
