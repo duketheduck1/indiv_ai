@@ -86,7 +86,7 @@ Please provide:
 2. 3-4 cultural affinities or movements they'd connect with
 3. 2-3 unexpected cultural connections across domains
 
-Format as JSON:
+Only => Format as JSON:
 {
   "personalityTraits": ["trait1", "trait2", "trait3"],
   "culturalAffinities": ["affinity1", "affinity2", "affinity3"],

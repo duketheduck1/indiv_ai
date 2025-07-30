@@ -34,7 +34,7 @@ export const UpdateCulturalProfile = async ({
 }) => {
   try {
     let profile = (await CulturalProfileOne(userId)) as CulturalProfile;
-    if (!profile) {
+    if (!profile.id) {
       await db.insert(culturalProfile).values({ userId });
       profile = (await CulturalProfileOne(userId)) as CulturalProfile;
     }
